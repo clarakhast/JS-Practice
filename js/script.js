@@ -36,10 +36,10 @@ document.getElementById(`supply`).innerHTML = `You will need ${lifetimeSupply} t
 //Calculate properties of a circle, using the definitions here. Store a radius into a variable. Calculate the circumference based on the radius, and output "The circumference is NN". Calculate the area based on the radius, and output "The area is NN".
 
 let circleRadius = 15;
-let circleCircum = 2 * 3.14 * circleRadius;
+let circleCircum = 2 * 3.141592653589793 * circleRadius;
  document.getElementById(`circumference`).innerHTML = `The circumference is ${circleCircum}.`
 
- let circleArea = 3.14 * (circleRadius ** 2);
+ let circleArea = 3.141592653589793 * (circleRadius ** 2);
  document.getElementById(`area`).innerHTML = `The area is ${circleArea}.`
 
 
